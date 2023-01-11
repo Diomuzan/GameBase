@@ -1,0 +1,174 @@
+@font-face {
+    font-family: 'alte_din_mittelschriftRgin_1451';
+    src: url('/sd21-p6-reviewyourexperience-gamebase/Public/Fonts/alte-din-1451-mittelschrift.regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+html, body, h1, h2, h3, h4, h5, h6, p, a {
+  font-family: 'alte_din_mittelschriftRgin_1451';
+}
+
+
+
+.navbar {
+    height: 55px;
+}
+
+.nbLogo {
+    width: 90px;
+    height: 50px;
+}
+
+.nLink {
+    display: inline-block;
+    position: relative;
+    left: 710px;
+    top: 5px;
+}
+
+.nItem {
+    transition: background-color 1s;
+    place-content: center;
+}
+
+.nItem:hover {
+    background: linear-gradient(90deg, #7CFEF0, #DD0000, #FFA69E, #F3F2F8, transparent) #70FFC8;
+    background-color: #FFA400;
+    color: white;
+    border-radius: 5px;
+}
+
+.ddTitle {
+    color: white;
+}
+
+.ddTitle:hover {
+    background: linear-gradient(90deg, #7CFEF0, #DD0000, #FFA69E, #F3F2F8, transparent) #70FFC8;
+    background-color: #FFA400;
+    color: white;
+    border-radius: 5px;
+}
+
+.ddMenu {
+    background-color: black;
+    display: block;
+}
+
+
+
+.ddItem {
+    transition: background-color 1s;
+    place-content: center;
+}
+
+.ddItem:hover {
+    background: linear-gradient(90deg, #FF9F1C, #FFE6E8, #006E7A, #D8EEFE, #C370FF, transparent) #C370FF;
+    background-color: #FFA400;
+    color: white;
+    border-radius: 5px;
+}
+
+
+
+.bannerimage {
+    height: 700px;
+    width: 100%;
+}
+
+.bannerimage2 {
+    height: 700px;
+    width: 100%;
+}
+
+.button1 {
+    top: -105px;
+    left: 85%;
+}
+
+.footer {
+    height: 60px;
+}
+
+.text1 {
+    color: white;
+    top: 15px;
+    left: 10px;
+}
+
+.text2 {
+    color: white;
+    top: 16px;
+    left: -410px;
+}
+
+.ftLogo {
+    width: 50px;
+    height: 30px;
+    top: 10px;
+    left: -200px;
+}
+
+.twLogo {
+    display: inline;
+    font-size: 24px;
+    color: white;
+    top: 10px;
+    left: 400px;
+    text-decoration: none;
+    transition: background-color 1s;
+    place-content: center;
+}
+
+.twLogo:hover {
+    background: linear-gradient(90deg, #3F51B5, #D16666, #6622CC, transparent) #2196F3;
+    background-color: #FFA400;
+    color: white;
+}
+
+.fbLogo {
+    display: inline;
+    color: white;
+    font-size: 24px;
+    top: 10px;
+    left: 190px;
+    transition: background-color 1s;
+    place-content: center;
+}
+
+.fbLogo:hover {
+    background: linear-gradient(90deg, #26532B, #270722, #ECCE8E, #DBCF96, transparent) #399E5A;
+    background-color: #8ED081
+    color: #B4D2BA
+}
+
+.igLogo {
+    display: inline;
+    color: white;
+    font-size: 24px;
+    top: 10px;
+    left: -20px;
+    transition: background-color 1s;
+    place-content: center;
+}
+
+.igLogo:hover {
+    background: linear-gradient(90deg, #EF798A, #F7A9A8, #2C0E37, #690375, transparent) #EFEFD0;
+    background-color: white
+    color: #FFE0B5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
