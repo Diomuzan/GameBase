@@ -4,6 +4,9 @@ require '../Modules/login.php';
 require '../Modules/logout.php';
 require '../Modules/database.php';
 require '../Modules/common.php';
+require '../Templates/defaults/GameBase_Head.php';
+require '../Templates/defaults/GameBase_Navbar.php';
+
 
 session_start();
 //var_dump($_SESSION);
@@ -14,7 +17,7 @@ $request = $_SERVER['REQUEST_URI'];
 
 $params = explode("/", $request);
 print_r($request);
-$title = "HealthOne";
+$title = "GameBase";
 $titleSuffix = "";
 
 //$params[1] is de action
@@ -25,11 +28,11 @@ switch ($params[1]) {
         $titleSuffix = ' | Categories';
         $categories = getCategories();
         //var_dump($categories);die;
-        include_once "../Templates/categories.php";
+        include_once "/Users/rizot/Documents/GitHub/GameBase/Templates/GameBase_Categories.php";
         break;
 
     case 'category':
-        include_once "../Templates/home.php";
+        include_once "/Users/rizot/Documents/GitHub/GameBase/Templates/GameBase_Homepage.php";
         break;
 
     case 'product':
@@ -37,22 +40,22 @@ switch ($params[1]) {
 
     case 'login':
         $titleSuffix = ' | Home';
-        include_once "../Templates/home.php";
+        include_once "/Users/rizot/Documents/GitHub/GameBase/Templates/GameBase_Homepage.php";
         break;
 
     case 'logout':
         $titleSuffix = ' | Home';
-        include_once "../Templates/home.php";
+        include_once "/Users/rizot/Documents/GitHub/GameBase/Templates/GameBase_Homepage.php";
         break;
 
     case 'register':
         $titleSuffix = ' | Home';
-        include_once "../Templates/home.php";
+        include_once "/Users/rizot/Documents/GitHub/GameBase/Templates/GameBase_Homepage.php";
         break;
 
     case 'contact':
         $titleSuffix = ' | Home';
-        include_once "../Templates/home.php";
+        include_once "/Users/rizot/Documents/GitHub/GameBase/Templates/GameBase_Homepage.php";
         break;
 
     case 'admin':
@@ -65,7 +68,7 @@ switch ($params[1]) {
 
     default:
         $titleSuffix = ' | Home';
-        include_once "../Templates/home.php";
+        include_once "/Users/rizot/Documents/GitHub/GameBase/Templates/GameBase_Homepage.php";
 }
 
 

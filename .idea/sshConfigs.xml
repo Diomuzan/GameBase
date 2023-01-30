@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig authType="PASSWORD" host="gamebase" id="dfb27536-0897-4484-a42e-19b6bea9a205" port="22" nameFormat="DESCRIPTIVE" username="gamebase.localhost" useOpenSSHConfig="true" />
+    </configs>
+  </component>
+</project>

@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'alte_din_mittelschriftRgin_1451';
-    src: url('/sd21-p6-reviewyourexperience-gamebase/Public/Fonts/alte-din-1451-mittelschrift.regular.ttf') format('truetype');
+    src: url('/GameBase/Public/Fonts/alte-din-1451-mittelschrift.regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 
@@ -10,7 +10,9 @@ html, body, h1, h2, h3, h4, h5, h6, p, a {
   font-family: 'alte_din_mittelschriftRgin_1451';
 }
 
-
+html, body {
+    background-color: #1F1E1E !important
+}
 
 .navbar {
     height: 55px;
@@ -24,67 +26,122 @@ html, body, h1, h2, h3, h4, h5, h6, p, a {
 .nLink {
     display: inline-block;
     position: relative;
-    left: 710px;
-    top: 5px;
+    left: 690px;
+    top: 360px;
 }
 
-.nItem {
+.nItem1 {
+    display: inline-block;
     transition: background-color 1s;
     place-content: center;
+    top: -340px;
+    left: 25px;
 }
 
-.nItem:hover {
+.nItem2 {
+    display: inline-block;
+    transition: background-color 1s;
+    place-content: center;
+    top: -380px;
+    left: 95px;
+}
+
+.nItem3 {
+    display: inline-block;
+    transition: background-color 1s;
+    place-content: center;
+    top: -1px;
+    left: -70px;
+}
+
+.nItem4 {
+    display: inline-block;
+    transition: background-color 1s;
+    place-content: center;
+    top: -1px;
+    left: -40px;
+}
+
+.nItem5 {
+    display: inline-block;
+    transition: background-color 1s;
+    place-content: center;
+    top: -1px;
+    left: -10px;
+}
+
+.nItem1:hover {
     background: linear-gradient(90deg, #7CFEF0, #DD0000, #FFA69E, #F3F2F8, transparent) #70FFC8;
     background-color: #FFA400;
     color: white;
     border-radius: 5px;
 }
 
-.ddTitle {
-    color: white;
-}
-
-.ddTitle:hover {
+.nItem2:hover {
     background: linear-gradient(90deg, #7CFEF0, #DD0000, #FFA69E, #F3F2F8, transparent) #70FFC8;
     background-color: #FFA400;
     color: white;
     border-radius: 5px;
 }
 
-.ddMenu {
+.nItem3:hover {
+    background: linear-gradient(90deg, #7CFEF0, #DD0000, #FFA69E, #F3F2F8, transparent) #70FFC8;
+    background-color: #FFA400;
+    color: white;
+    border-radius: 5px;
+}
+
+.nItem4:hover {
+    background: linear-gradient(90deg, #7CFEF0, #DD0000, #FFA69E, #F3F2F8, transparent) #70FFC8;
+    background-color: #FFA400;
+    color: white;
+    border-radius: 5px;
+}
+
+.nItem5:hover {
+    background: linear-gradient(90deg, #7CFEF0, #DD0000, #FFA69E, #F3F2F8, transparent) #70FFC8;
+    background-color: #FFA400;
+    color: white;
+    border-radius: 5px;
+}
+
+.dropdown-menu-dark {
     background-color: black;
-    display: block;
-}
-
-
-
-.ddItem {
-    transition: background-color 1s;
-    place-content: center;
 }
 
 .ddItem:hover {
-    background: linear-gradient(90deg, #FF9F1C, #FFE6E8, #006E7A, #D8EEFE, #C370FF, transparent) #C370FF;
+    transition: background-color 1s;
+}
+.ddItem:hover {
+    background: linear-gradient(90deg, #D33F49, #F6F7EB,#2B9720 ,#3185FC, transparent) #E2A0FF;
     background-color: #FFA400;
     color: white;
     border-radius: 5px;
 }
 
+.bannerimage1 {
+    display: inline;
+    height: 550px;
+    width: 1288px;
 
-
-.bannerimage {
-    height: 700px;
-    width: 100%;
 }
 
 .bannerimage2 {
-    height: 700px;
-    width: 100%;
+    height: 590px;
+    width: 1288px;
 }
 
 .button1 {
-    top: -105px;
-    left: 85%;
+    top: -85px;
+    left: 1100px;
+    transition: background-color 1s;
+}
+
+.button:hover {
+    background: linear-gradient(90deg, yellow, blue, transparent);
+    background-color: #FFA400;
+    color: white;
+    border-radius: 5px;
 }
 
 .footer {
@@ -93,70 +150,52 @@ html, body, h1, h2, h3, h4, h5, h6, p, a {
 
 .text1 {
     color: white;
-    top: 15px;
+    top: 5px;
     left: 10px;
 }
 
 .text2 {
     color: white;
-    top: 16px;
-    left: -410px;
+    top: 5px;
+    left: -395px;
 }
 
 .ftLogo {
     width: 50px;
     height: 30px;
-    top: 10px;
-    left: -200px;
+    top: -1px;
+    left: -190px;
 }
 
 .twLogo {
     display: inline;
-    font-size: 24px;
-    color: white;
-    top: 10px;
-    left: 400px;
-    text-decoration: none;
-    transition: background-color 1s;
-    place-content: center;
+    height: 40px;
+    width: 40px;
+    top:  -5px;
+    left: 395px;
 }
 
-.twLogo:hover {
-    background: linear-gradient(90deg, #3F51B5, #D16666, #6622CC, transparent) #2196F3;
-    background-color: #FFA400;
-    color: white;
-}
 
 .fbLogo {
     display: inline;
     color: white;
-    font-size: 24px;
-    top: 10px;
-    left: 190px;
-    transition: background-color 1s;
-    place-content: center;
-}
-
-.fbLogo:hover {
-    background: linear-gradient(90deg, #26532B, #270722, #ECCE8E, #DBCF96, transparent) #399E5A;
-    background-color: #8ED081
-    color: #B4D2BA
+    height: 35px;
+    width: 60px;
+    top: -5px;
+    left: 240px;
 }
 
 .igLogo {
     display: inline;
-    color: white;
-    font-size: 24px;
-    top: 10px;
-    left: -20px;
-    transition: background-color 1s;
-    place-content: center;
+    height: 40px;
+    width: 40px;
+    top:  -5px;
+    left: -70px;
 }
 
-.igLogo:hover {
-    background: linear-gradient(90deg, #EF798A, #F7A9A8, #2C0E37, #690375, transparent) #EFEFD0;
-    background-color: white
-    color: #FFE0B5;
+.container1 {
+    top: 0px;
+    left: -90px;
 }
 
 
