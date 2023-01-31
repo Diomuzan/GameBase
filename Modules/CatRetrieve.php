@@ -1,10 +1,9 @@
 <?php
 $host = 'localhost';
-$db   = 'gamebase';
+$dsn   = 'gamebase';
 $user = 'root';
 $pass = '';
 $charset = 'utf8mb4';
-$dsn = "";
 $st= "";
 $br = "";
 $rc = "";
@@ -14,7 +13,7 @@ $sx = "";
 $column = "";
 
 try {
-    $dsn = new PDO("mysql:host=$host;dbname=$db;charset=$charset", $user, $pass);
+    $dsn = new PDO("mysql:host=$host;dbname=$dsn;charset=$charset", $user, $pass);
 
     $dsn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
     $br = $dsn->prepare("SELECT * FROM categories WHERE `id` = 1;");

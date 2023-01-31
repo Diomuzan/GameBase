@@ -137,11 +137,49 @@ html, body {
     transition: background-color 1s;
 }
 
-.button:hover {
-    background: linear-gradient(90deg, yellow, blue, transparent);
-    background-color: #FFA400;
-    color: white;
-    border-radius: 5px;
+.button2 {
+    background-color: black;
+    width: 250px;
+    height: 70px;
+    border-radius: 10px;
+    top: 120px;
+    left: 100px;
+}
+
+.button3 {
+    background-color: black;
+    width: 250px;
+    height: 70px;
+    border-radius: 10px;
+    top: 120px;
+    left: 130px;
+}
+
+.button4 {
+    background-color: black;
+    width: 250px;
+    height: 70px;
+    border-radius: 10px;
+    top: 120px;
+    left: 160px;
+}
+
+.button5 {
+    background-color: black;
+    width: 250px;
+    height: 70px;
+    border-radius: 10px;
+    top: 120px;
+    left: 190px;
+}
+
+.button6 {
+    background-color: black;
+    width: 250px;
+    height: 70px;
+    border-radius: 10px;
+    top: 215px;
+    left: -495px;
 }
 
 .footer {
@@ -158,6 +196,38 @@ html, body {
     color: white;
     top: 5px;
     left: -395px;
+}
+
+.text3 {
+    display: inline-block;
+    top: 75px;
+    left: 30px;
+}
+
+
+.text4 {
+    display: inline-block;
+    top: 3px;
+}
+
+.text5 {
+    display: inline-block;
+    top: 3px;
+}
+
+.text6 {
+    display: inline-block;
+    top: 3px;
+}
+
+.text7 {
+    display: inline-block;
+    top: 3px;
+}
+
+.text8 {
+    display: inline-block;
+    top: 3px;
 }
 
 .ftLogo {
@@ -198,8 +268,11 @@ html, body {
     left: -90px;
 }
 
-
-
+.heading1 {
+    top: 40px;
+    left: 520px;
+    display: inline-block;
+}
 
 
 
