@@ -28,34 +28,35 @@ switch ($params[1]) {
         $titleSuffix = ' | Categories';
         $categories = getCategories();
         //var_dump($categories);die;
-        include_once "/Users/rizot/Documents/GitHub/GameBase/Templates/GameBase_Categories.php";
+        include_once "/Users/rizot/Documents/Projects/GameBase/Templates/GameBase_Categories.php";
         break;
 
     case 'category':
-        include_once "/Users/rizot/Documents/GitHub/GameBase/Templates/GameBase_Homepage.php";
+        include_once "/Users/rizot/Documents/Project/GameBase/Templates/GameBase_Homepage.php";
         break;
 
     case 'product':
+
         break;
 
     case 'login':
         $titleSuffix = ' | Home';
-        include_once "/Users/rizot/Documents/GitHub/GameBase/Templates/GameBase_Homepage.php";
+        include_once "/Users/rizot/Documents/Projects/GameBase/Templates/GameBase_Homepage.php";
         break;
 
     case 'logout':
         $titleSuffix = ' | Home';
-        include_once "/Users/rizot/Documents/GitHub/GameBase/Templates/GameBase_Homepage.php";
+        include_once "/Users/rizot/Documents/Projects/GameBase/Templates/GameBase_Homepage.php";
         break;
 
     case 'register':
         $titleSuffix = ' | Home';
-        include_once "/Users/rizot/Documents/GitHub/GameBase/Templates/GameBase_Homepage.php";
+        include_once "/Users/rizot/Documents/Projects/GameBase/Templates/GameBase_Homepage.php";
         break;
 
     case 'contact':
         $titleSuffix = ' | Home';
-        include_once "/Users/rizot/Documents/GitHub/GameBase/Templates/GameBase_Homepage.php";
+        include_once "/Users/rizot/Documents/Projects/GameBase/Templates/GameBase_Homepage.php";
         break;
 
     case 'admin':
@@ -68,7 +69,7 @@ switch ($params[1]) {
 
     default:
         $titleSuffix = ' | Home';
-        include_once "/Users/rizot/Documents/GitHub/GameBase/Templates/GameBase_Homepage.php";
+        include_once "/Users/rizot/Documents/ProjectsGameBase/Templates/GameBase_Homepage.php";
 }
 
 
