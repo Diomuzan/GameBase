@@ -61,4 +61,14 @@ if (product[2] == "S") {
 
 Console.WriteLine($"Product: {size} {color} {type}");
 
+string[] names = { "Alex", "Eddie", "David", "Michael" };
+for (int i = 0; i < names.Length; i++)
+    if (names[i] == "David") names[i] = "Sammy";
+
+foreach (var name in names) Console.WriteLine(name);
+
+string[] output = { "Fizz", "Buzz" };
+int number;
+if (number === )
+
 
